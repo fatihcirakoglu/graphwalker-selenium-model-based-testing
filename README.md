@@ -1,7 +1,7 @@
 # graphwalker-selenium-model-based-testing
 Demonstration  of Model Based testing with Graphwalker and Selenium
 
-- This project tests https://www.pazarama.com/ with 4 test cases using Grapwlker and Selenium frameworks with the
+- This project tests https://www.pazarama.com/ with 4 test cases using Graphwalker and Selenium frameworks with the
 help of model based testing. 
 
 1. PazaramaLoginLogout
@@ -21,13 +21,21 @@ This test is created for verifying search functionality within happy path
 ![PazaramaAddShoppingCart](https://user-images.githubusercontent.com/33651899/205932558-3a3b6b68-a16e-4994-889d-10bc688ec660.JPG)
 
 - All implemented test cases are in below path int the project: 
+```
 ...\src\main\java\com\company
+```
 
 - For running the test cases, just go to project folder and run:
+```
 mvn -X compile exec:java -Dexec.cleanupDaemonThreads=false -Dexec.mainClass="com.company.Runner"
+```
 
 - For opening Grapwalker Models:
 1. Run below command on commanline 
+```
 java -jar graphwalker-studio-4.3.2.jar
+```
 2. Open a browser and use url:
+```
 http://localhost:9090/studio.html
+```
